@@ -1,1 +1,1 @@
-bot: python3 MisakiAobaBot.py
+bot: python MisakiAobaBot.py
