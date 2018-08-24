@@ -85,9 +85,14 @@ class GLOBAL_WORDS:
     """
 
     word_state="""
-版本：Alpha.0.7
+目前室內人數：$user_number
+This program has been running for
+$runtime
+
+版本：Beta 0.1
 開發者：Dephilia（蝶芙）
-telegramID:@Dephilia
+telegramID：@Dephilia
+<a href="https://dephilia.github.io/MisakiAobaBot/">〔github link〕</a>
 <a href="https://www.plurk.com/Dephillia">〔噗浪〕</a>
     """
 
@@ -112,7 +117,7 @@ telegramID:@Dephilia
     word_kachikoi_3="""
 <pre>    俺と一緒に人生歩もう
     世界で一番愛してる
-        
+
     ア・イ・シ・テ・ル</pre>
     """
     word_do_mission="""

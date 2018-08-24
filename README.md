@@ -1,8 +1,11 @@
 # MisakiAobaBot
 
 ### Platform
-This bot is running on telegram.
-ID:@MisakiAobaBot
+This bot is running on telegram.  
+ID: [@MisakiAobaBot](https://t.me/MisakiAobaBot)
+
+### About
+This bot is specialized for our [im@s group](https://t.me/imas_zh)
 
 ### Function
 
@@ -20,3 +23,7 @@ ID:@MisakiAobaBot
 - **randChihaya** - 召喚千早
 - **randTsumugi** - 召喚紬
 - **sticker** - STICKERまとめ
+
+### Contributing
+
+Contributions are [Welcome!!](https://www.project-imas.com/wiki/Welcome!!)
