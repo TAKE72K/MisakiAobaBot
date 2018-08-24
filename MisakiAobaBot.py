@@ -198,6 +198,12 @@ def get_config(id,setting):
                 return False
     return False
         
+def strfdelta(tdelta, str):
+    #format timedelta
+    d = {"days": tdelta.days}
+    d["hours"], rem = divmod(tdelta.seconds, 3600)#除3600得[hour,餘秒數]
+    d["minutes"], d["seconds"] = divmod(rem, 60)#除60得[min,sec]
+    return str.format(**d)
 ################################################
 #                   command                    #
 ################################################
