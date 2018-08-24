@@ -86,8 +86,7 @@ class GLOBAL_WORDS:
 
     word_state="""
 目前室內人數：$user_number
-This program has been running for
-$runtime
+提醒你：美咲已加班{days}天{hours}小時
 
 版本：Beta 0.1
 開發者：Dephilia（蝶芙）

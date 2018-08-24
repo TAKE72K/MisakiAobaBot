@@ -278,10 +278,10 @@ def state(bot, update):
         # run time
         run_time=datetime.now()-init_time
 
-        t_temp1=GLOBAL_WORDS.word_state.replace('$user_number',str(human_count))
-        tt=t_temp1.replace('$runtime',str(run_time))
+        text= GLOBAL_WORDS.word_state.replace('$user_number',str(human_count))
+        text= strfdelta(run_time, text)
 
-        bot.send_message(chat_id=update.message.chat_id,text=tt,parse_mode=ParseMode.HTML)
+        bot.send_message(chat_id=update.message.chat_id,text=text,parse_mode=ParseMode.HTML)
 
 @run_async
 def config(bot, update, args):
